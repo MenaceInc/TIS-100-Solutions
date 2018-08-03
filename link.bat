@@ -1,0 +1,1 @@
+mklink /J "%USERPROFILE%\Documents\My Games\TIS-100\76561198001415009\save" "%CD%"
