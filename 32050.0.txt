@@ -1,0 +1,42 @@
+@0
+
+
+@1
+S: MOV UP ACC
+MOV ACC DOWN
+SWP
+SUB DOWN
+JGZ TEST
+NEG
+TEST: SUB 9
+JGZ TRUE
+MOV 0 DOWN
+JMP S
+TRUE: MOV 1 DOWN
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+MOV UP UP
+MOV UP RIGHT
+
+@6
+MOV LEFT DOWN
+
+@7
+
+
+@8
+
+
+@9
+MOV UP DOWN
+
+@10
